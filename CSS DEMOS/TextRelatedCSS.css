@@ -1,0 +1,10 @@
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size:large;
+    color:rgb(241, 83, 83);      
+    background: url('cap.png') no-repeat;
+    width: 100px;
+    height: 200px;
+    overflow:scroll;
+}

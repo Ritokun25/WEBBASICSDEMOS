@@ -1,0 +1,53 @@
+<html>
+    <body style="background-colour: blue;">
+        <form method="POST" action="tables.html">
+        <div>
+        <span>Name:</span>
+        <span><input type="text" name="txtname"></span>
+    </div>
+    <br>
+    <div>
+        <span>Email:</span>
+        <span><input type="text" name="txtmail"></span>
+        </div>
+        <br>
+        <div>
+        <span>Subscription type:</span>
+        <span><input type="radio" name="rdbSubscription" value="PaidSubscription">Paid 
+            <input type="radio" name="rdbSubscription"value="FreeSubscription"> Free</span>
+    </div>
+    <br>
+    <div>
+        <span>category of books you love to read:</span>
+       <span> <input type="checkbox" name="cbFiction" value="fiction"> Fiction</span>
+       <span><input type="checkbox" name="cbBiographies" values="Biographies"> Biographies </span>
+       <span><input type="checkbox" name="cbPhilosophy" values="philophies">Philosophies</span>
+    </div>
+    <br>
+    <div>
+        <span>Address</span>
+        <span> <textarea rows ="5" cols="20"></textarea></span>
+    </div>
+    <br>
+    <div>
+        <span> Frequency for BOOK circulation?</span>
+            <span> 
+                <select name="dd1bookCirculationFrequency">
+                    <option>Select</option>
+                    <option>Weekly</option>
+                    <option>Fortnightingly</option>
+                    <option>Monthly</option>
+                </select>
+            </span>
+    </div>
+    <br>
+    <div>
+        <span>
+            <input type="button" name="btnsave" value="Register me">
+            <input type="submit" name="btnsubmt" value="Submit">
+            <input type="reset" name="btnreset" value="reset">
+        </span>
+    </div>
+</form>
+    </body>
+</html>
